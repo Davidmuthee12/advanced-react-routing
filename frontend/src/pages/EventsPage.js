@@ -30,7 +30,7 @@ async function loadEvents() {
   }
 }
 
-export function loader() {
+export async function loader() {
   return {
     events: loadEvents(),
   };
